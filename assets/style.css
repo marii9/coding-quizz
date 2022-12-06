@@ -1,0 +1,74 @@
+html, body {
+    height: 50%;
+}
+
+body {
+    background-color: pink;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+   
+    flex: 1 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: yellowgreen;
+}
+
+
+footer {
+  
+    flex-shrink: 0;
+    font-size: .5rem;
+}
+
+
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+
+ul.nobullets {
+list-style-type: none;
+}
+
+/* Answer button styling */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: teal;
+}
+
+  h2{
+    padding-top: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 300;
+   font-size: 50px;
+   justify-content: center;
+   display: block;
+   display: flex;
+  
+  
+  }  
+
+
+
+
+
